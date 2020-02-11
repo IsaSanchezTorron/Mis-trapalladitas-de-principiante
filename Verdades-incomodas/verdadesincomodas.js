@@ -1,5 +1,5 @@
 
-'use strict';
+('use strict');
 let nombre = prompt('Hola! ¿Cuál es tu nombre?');
 let numero = prompt(`Hola ${nombre}, tengo unas cuantas verdades incómodas para ti. Dime un número del 1 al 10.`);
 switch (numero) {
@@ -39,4 +39,7 @@ switch (numero) {
       'Con la técnica de no contarle a nadie tus proyectos y planes hasta materializarlos, puedes fracasar sin que nadie se entere'
     );
     break;
+  default:
+    alert('Empezamos mal si no sabes escoger un numero entre el 1 y el 10');
 }
+
