@@ -40,6 +40,6 @@ switch (numero) {
     );
     break;
   default:
-    alert('Empezamos mal si no sabes escoger un numero entre el 1 y el 10');
+    alert('Empezamos mal si no sabes escoger un nÚmero entre el 1 y el 10');
 }
 
